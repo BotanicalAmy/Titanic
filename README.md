@@ -28,7 +28,7 @@ After experimenting with the plot, I used GridSearchCV to validate my choice of 
 ### Euclidian geometry and limitations
 The KNN algorithm is limited by the underlying Euclidian geometry used to calculate the nearest neighbors.  First, the computational power to run this algorithm is high.  As sample size (n) approaches infinity, the dataspace to compute distances gets crowded.  In the case of the human resource application, this method would function well for companies with 5,000 or fewer employees.  Many of these companies lack sophisticated human resource application; however, they have a small enough dataset to accurately predict which employees are most likely to leave based on past employee retention characteristics.
 
-![Euclid](https://towardsdatascience.com/knn-algorithm-what-when-why-how-41405c16c36f)
+[Euclid and KNN](https://towardsdatascience.com/knn-algorithm-what-when-why-how-41405c16c36f)
 
 ![k_NNalgorithm](https://github.com/BotanicalAmy/Titanic/blob/main/k_NNalgorithm.png)
 
