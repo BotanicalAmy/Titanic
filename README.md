@@ -19,18 +19,18 @@ Initially, I neglected to perform a GridSearchCV on the data and looked at the a
 
 Below is a plot of how the n_neighbors (k values) perform.
 
-![k_neighbors](https://github.com/BotanicalAmy/Titanic/blob/main/n_neighbors.png)
+![k_neighbors](https://github.com/BotanicalAmy/Titanic/blob/main/images/n_neighbors.png)
 
 After experimenting with the plot, I used GridSearchCV to validate my choice of n_neighbors = 9.
 
-![test_results](https://github.com/BotanicalAmy/Titanic/blob/main/test_results.png)
+![test_results](https://github.com/BotanicalAmy/Titanic/blob/main/images/test_results.png)
 
 ### Euclidian geometry and limitations
 The KNN algorithm is limited by the underlying Euclidian geometry used to calculate the nearest neighbors.  First, the computational power to run this algorithm is high.  As sample size (n) approaches infinity, the dataspace to compute distances gets crowded.  In the case of the human resource application, this method would function well for companies with 5,000 or fewer employees.  Many of these companies lack sophisticated human resource application; however, they have a small enough dataset to accurately predict which employees are most likely to leave based on past employee retention characteristics.
 
 [Euclid and KNN](https://towardsdatascience.com/knn-algorithm-what-when-why-how-41405c16c36f)
 
-![k_NNalgorithm](https://github.com/BotanicalAmy/Titanic/blob/main/k_NNalgorithm.png)
+![k_NNalgorithm](https://github.com/BotanicalAmy/Titanic/blob/main/images/k_NNalgorithm.png)
 
 ## Lecture notes:
 I found these lecture notes on the k-NN algorithm particularly helpful in understanding the math behind this classifier.
